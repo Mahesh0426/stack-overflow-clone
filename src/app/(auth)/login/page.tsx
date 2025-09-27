@@ -66,15 +66,15 @@ export default function Login() {
   return (
     <div className="mx-auto w-full max-w-md rounded-none border border-solid border-white/30 bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">
-        Login to Riverflow
+        Login
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        Login to riverflow
+        Login to your account
         <br /> If you don&apos;t have an account,{" "}
         <Link href="/register" className="text-orange-500 hover:underline">
           register
         </Link>{" "}
-        with riverflow
+        with us
       </p>
 
       {error && (
@@ -112,6 +112,14 @@ export default function Login() {
           Log in &rarr;
           <BottomGradient />
         </button>
+        <br />
+        <p>credential</p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-300">
+          Email: mahesh@gmail.com
+        </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-300">
+          Password: 12345678
+        </p>
 
         <div className="my-8 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent dark:via-neutral-700" />
 
